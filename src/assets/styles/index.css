@@ -1,0 +1,289 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat.ttf") format("truetype");
+}
+
+:root {
+  padding: 0 10%;
+}
+
+.body {
+  padding-bottom: 100px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+footer label {
+  line-height: 17.07px;
+  size: 14px;
+  font-family: "Montserrat";
+  color: #000000;
+  opacity: 0.5;
+}
+
+.footer_body i {
+  padding-left: 10px;
+  width: 15px;
+}
+
+.img_principal {
+  width: 100%;
+}
+
+.dots {
+  width: 40px;
+  height: 20px;
+}
+
+.title {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.text_title {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: justify;
+  padding-bottom: 30px;
+  color: #4f4f4f;
+}
+
+.ingredients {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 30px 0;
+}
+
+.graham {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+.cheesecake {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.label {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 5px;
+  color: #828282;
+}
+
+.number {
+  background-color: #f2994a;
+  width: 30px;
+  height: 28px;
+  border-radius: 5px;
+  color: white;
+}
+
+.number label {
+  padding-top: 2px;
+}
+
+.row_instruction {
+  padding-bottom: 20px;
+}
+
+.instructions {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 25px 0;
+}
+
+.source {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bdbdbd;
+  padding-top: 30px;
+}
+
+.yields {
+  box-shadow: 0px 0px 20px 0px #0000001a;
+  width: 240px;
+  max-height: 500px;
+  top: 711px;
+  left: 984px;
+  border-radius: 12px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+.eat {
+  fill: #f2994a;
+}
+
+.serving {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f2994a;
+}
+
+.serving2 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.yield {
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+.div_title_yield {
+  margin: 0 auto;
+  padding: 25px 1px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columna1 {
+  flex: 75%;
+}
+
+.columna2 {
+  flex: 25%;
+}
+
+@media (max-width: 767px) {
+  .columna1 {
+    order: 2;
+    flex: 100%;
+  }
+
+  .columna2 {
+    order: 1;
+    flex: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .text_title {
+    font-size: 12px;
+  }
+
+  .small_card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .div_title_yield {
+    flex: 33%;
+    padding: 1px 5px;
+  }
+
+  .div_title_yield .row label {
+    padding: 1px;
+    letter-spacing: 0em;
+  }
+
+  .div_title_yield .row {
+    padding: 0px 1px 1px 10px;
+  }
+
+  .yield {
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0em;
+  }
+
+  .serving2 {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+  }
+
+  .eat {
+    padding: 5px;
+  }
+
+  .fork {
+    width: 29px;
+    padding: 0;
+    padding-right: 3px;
+    margin-left: -5px;
+  }
+
+  .div_fork {
+    padding-bottom: 30px;
+  }
+
+  .yields {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
